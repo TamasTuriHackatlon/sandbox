@@ -1,7 +1,12 @@
 #include <iostream>
 
+void Log(const char* message)
+{
+	std::cout << message << std::endl;
+}
+
 int Multiply(int a, int b)
 {
-	int result = a * b;
-	return result;
-#include "EndBrace.h"
+	Log("Multiply");
+	return a * b;
+}
