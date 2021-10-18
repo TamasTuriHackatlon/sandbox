@@ -10,6 +10,6 @@ static int Multiply(int a, int b)
 
 int main()
 {
-	//std::cout << Multiply(5, 8) << std::endl;
+	std::cout << Multiply(5, 8) << std::endl;
 	std::cin.get();
 }
