@@ -1,7 +1,6 @@
 #include <iostream>
 
-int Log(const char* message)
+void Log(const char* message, int level)
 {
 	std::cout << message << std::endl;
-	return 1;
 }
