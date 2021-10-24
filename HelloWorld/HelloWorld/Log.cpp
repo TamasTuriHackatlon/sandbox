@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Log.h"
+#include "Common.h"
 
 void InitLog()
 {
